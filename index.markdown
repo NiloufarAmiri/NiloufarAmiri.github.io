@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Bio"
+title: "Home"
 ---
 
 ## 👋 Welcome

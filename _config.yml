@@ -22,7 +22,7 @@ title: Niloufar Amiri
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal website, where I share my research publications, tutorials, and topics I am passionate about in robotics, control, and intelligent systems.
-baseurl: "/academic-site" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://NiloufarAmiri.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # twitter_username: jekyllrb

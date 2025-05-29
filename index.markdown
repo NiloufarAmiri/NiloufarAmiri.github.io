@@ -1,4 +1,5 @@
 ---
+---
 layout: home
 title: "Niloufar Amiri"
 ---
@@ -12,8 +13,9 @@ My work focuses on aerial manipulation, visual servoing, and intelligent control
 
 ## 📫 Contact
 
-- **LinkedIn**: [Link](https://www.linkedin.com/in/niloufar-amiri/?originalSubdomain=ca)
-- **GitHub**: [github.com/NiloufarAmiri](https://github.com/NiloufarAmiri)
-- **Google Scholar**: [Link](https://scholar.google.ca/citations?user=kEDzfXMAAAAJ&hl=en)
+- 🔗 [LinkedIn: Niloufar Amiri](https://www.linkedin.com/in/niloufar-amiri/?originalSubdomain=ca)
+- 💻 [GitHub: @NiloufarAmiri](https://github.com/NiloufarAmiri)
+- 📚 [Google Scholar Profile](https://scholar.google.ca/citations?user=kEDzfXMAAAAJ&hl=en)
 
 ---
+

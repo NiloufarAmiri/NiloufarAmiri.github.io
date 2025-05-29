@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Niloufar Amiri"
+title: "Bio"
 ---
 
 ## 👋 Welcome

@@ -1,7 +1,5 @@
 ---
----
 layout: home
-title: "Niloufar Amiri"
 ---
 
 ## 👋 Welcome

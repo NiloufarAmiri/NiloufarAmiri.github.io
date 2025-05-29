@@ -12,9 +12,8 @@ My work focuses on aerial manipulation, visual servoing, and intelligent control
 
 ## 📫 Contact
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/niloufar-amiri/?originalSubdomain=ca)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/niloufar-amiri)
 - 💻 [GitHub](https://github.com/NiloufarAmiri)
 - 📚 [Google Scholar](https://scholar.google.ca/citations?user=kEDzfXMAAAAJ&hl=en)
 
 ---
-

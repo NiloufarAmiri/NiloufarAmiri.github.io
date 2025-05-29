@@ -9,8 +9,8 @@ permalink: /publications/
 ## Journal Papers
 
 1. **N. Amiri** and F. Janabi-Sharifi.  
-   [“High-Performance Coupled Kinematics of Aerial Continuum Manipulation Systems for Control Applications”](https://dx.doi.org/10.2139/ssrn.4973345),  
-   *Robotics and Autonomous Systems*
+   [“High-Performance Coupled Kinematics of Aerial Continuum Manipulation Systems for Control Applications”](https://doi.org/10.1016/j.robot.2025.105021),  
+   *Robotics and Autonomous Systems*, pp. 105021, 2025
 
 2. S. Sepahvand, F. Janabi-Sharifi, H. Masnavi, F. Aghili, and **N. Amiri**.  
    [“Robust Image-Based Visual Servoing of an Aerial Robot Using Self-Organizing Neural Networks”](https://doi.org/10.1007/s12555-024-0367-5),  

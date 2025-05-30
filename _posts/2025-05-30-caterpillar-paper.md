@@ -19,10 +19,10 @@ To ensure a fair comparison, key control parameters are fine-tuned through a gen
 
 ## Figures
 
-<!-- ![System Diagram](/assets/images/system-diagram.png)
-*System architecture used in the experiments.*
+![System Diagram](/assets/images/motion_propagation.png)
+*Sequential motion propagation*
 
-![Simulation Result](/assets/images/simulation-result.png)
+<!-- ![Simulation Result](/assets/images/simulation-result.png)
 *Landing trajectory using hybrid control.* -->
 
 ## Read More
@@ -32,6 +32,7 @@ You can read the full paper [here](https://doi.org/10.1007/s40435-020-00736-6).
 ## Citation
 
 ```bibtex
+
 @article{amiri2021motion,
   title={Motion control of a caterpillar robot using optimized feedback linearization and sliding mode controllers},
   author={Amiri, Niloufar and Fakhari, Vahid and Sepahvand, Shayan},

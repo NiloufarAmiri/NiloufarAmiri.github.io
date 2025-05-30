@@ -5,12 +5,12 @@ title: "Home"
 
 ## 👋 Welcome to my website
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="display: flex; align-items: center; gap: 20px;">
 
   <img src="{{ site.baseurl }}/assets/images/Website.jpg" alt="My Photo" width="200" style="border-radius: 8px;">
 
-  <div>
-    <p>I am a PhD student at the Robotics, Mechatronics, and Automation Laboratory (RMAL) at Toronto Metropolitan University. My research focuses on dynamic modeling, vision-based control, design, and optimization of continuum aerial manipulators. I have a strong background in mechanical engineering, holding both a Master’s and a Bachelor’s degree in this exciting field.</p>
+  <div style="text-align: justify;">
+    <p>I am a PhD student at the Robotics, Mechatronics, and Automation Laboratory (RMAL) at Toronto Metropolitan University. My research focuses on dynamic modeling, vision-based control, design, and optimization of aerial continuum manipulators. I have a strong background in mechanical engineering, holding both a Master’s and a Bachelor’s degree in this exciting field.</p>
 
     <p>I am passionate about exploring new frontiers and addressing complex challenges in robotics and automation. I enjoy coding, thinking creatively, and continuously expanding my knowledge in computer vision and electrical hardware to make meaningful contributions to this interdisciplinary field.</p>
 
@@ -18,6 +18,7 @@ title: "Home"
   </div>
 
 </div>
+
 ---
 
 ## 📫 Contact

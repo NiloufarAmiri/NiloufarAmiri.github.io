@@ -32,7 +32,7 @@ You can read the full paper [here](https://doi.org/10.1007/s40435-020-00736-6).
 
 ## Citation
 
-```bibtex
+```text
 @article{amiri2021motion,
   title={Motion control of a caterpillar robot using optimized feedback linearization and sliding mode controllers},
   author={Amiri, Niloufar and Fakhari, Vahid and Sepahvand, Shayan},

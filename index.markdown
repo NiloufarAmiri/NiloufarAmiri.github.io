@@ -3,7 +3,7 @@ layout: home
 title: "Home"
 ---
 
-## 👋 Welcome to my website
+## 🤖 Welcome to my website 🤖
 
 <div style="display: flex; align-items: center; gap: 20px;">
 

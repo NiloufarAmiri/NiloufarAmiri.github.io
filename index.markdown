@@ -2,15 +2,6 @@
 layout: home
 title: "Welcome / Bienvenue"
 ---
-{% for post in site.posts %}
-  <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
-    {{ post.excerpt }}
-    <div>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.date | date: "%B %d, %Y" }}</p>
-    </div>
-  </div>
-{% endfor %}
 
 <style>
   .profile-container {
@@ -67,5 +58,17 @@ title: "Welcome / Bienvenue"
 - 📚 [Google Scholar](https://scholar.google.ca/citations?user=kEDzfXMAAAAJ&hl=en)
 - 💻 [ResearchGate](https://www.researchgate.net/profile/Niloufar-Amiri-3?ev=hdr_xprf)
 - 🤖 [RMAL Website](https://www.torontomu.ca/rmal)
+
+---
+
+{% for post in site.posts %}
+  <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+    {{ post.excerpt }}
+    <div>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date: "%B %d, %Y" }}</p>
+    </div>
+  </div>
+{% endfor %}
 
 ---

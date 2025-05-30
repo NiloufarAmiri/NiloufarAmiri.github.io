@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: minimal_home
 title: "Welcome / Bienvenue"
 ---
 

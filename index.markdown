@@ -18,7 +18,6 @@ title: "Welcome!"
 ---
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/niloufar-amiri)
-- 💻 [GitHub](https://github.com/NiloufarAmiri)
 - 📚 [Google Scholar](https://scholar.google.ca/citations?user=kEDzfXMAAAAJ&hl=en)
 
 ---

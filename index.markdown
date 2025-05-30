@@ -53,6 +53,7 @@ title: "Welcome / Bienvenue"
 
 
 ---
+## Connect with Me
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/niloufar-amiri)
 - 📚 [Google Scholar](https://scholar.google.ca/citations?user=kEDzfXMAAAAJ&hl=en)
@@ -61,7 +62,7 @@ title: "Welcome / Bienvenue"
 
 ---
 
-## Projects
+## Selected Works
 
 {% for post in site.posts %}
   <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">

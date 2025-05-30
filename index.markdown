@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Welcome!"
+title: "Welcome / Bienvenue"
 ---
 
 <div style="display: flex; align-items: center; gap: 20px;">

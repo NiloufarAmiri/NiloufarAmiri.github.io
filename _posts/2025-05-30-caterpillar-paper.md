@@ -3,8 +3,7 @@ layout: post
 title: "Motion control of a caterpillar robot using optimized feedback linearization and sliding mode controllers"
 date: 2025-05-30
 categories: research papers
-excerpt: "<img src='/assets/images/motion_propagation.png' width='100' style='border-radius: 8px;'>"
-
+excerpt: "<img src='/assets/images/motion_propagation.png' width='150' style='border-radius: 8px;'>"
 ---
 
 ## Article Overview

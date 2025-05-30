@@ -5,9 +5,11 @@ date: 2025-05-30
 categories: research papers
 ---
 
+<div style="text-align: justify;">
+
 ## Article Overview
 
-In this research, we develop and evaluate two advanced control strategies—optimized feedback linearization and optimized sliding mode control—for guiding the forward locomotion of abio-inspired caterpillar robot composed of five interconnected segments with torque-driven joints. The study begins with the derivation of the robot's nonlinear dynamic equations. Next, the controllers are designed to accurately track desired joint trajectories.
+In this research, we develop and evaluate two advanced control strategies—optimized feedback linearization and optimized sliding mode control—for guiding the forward locomotion of a bio-inspired caterpillar robot composed of five interconnected segments with torque-driven joints. The study begins with the derivation of the robot's nonlinear dynamic equations. Next, the controllers are designed to accurately track desired joint trajectories.
 
 To ensure a fair comparison, key control parameters are fine-tuned through a genetic algorithm, using a cost function that simultaneously minimizes both stabilization errors and control efforts. The robustness of each optimized controller is further assessed under challenging conditions, including parameter uncertainties, sensor noise, and actuator disturbances, with a focus on quantitative performance metrics related to accuracy and efficiency.
 

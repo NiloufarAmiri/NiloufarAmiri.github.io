@@ -61,6 +61,8 @@ title: "Welcome / Bienvenue"
 
 ---
 
+## Projects
+
 {% for post in site.posts %}
   <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
     {{ post.excerpt }}

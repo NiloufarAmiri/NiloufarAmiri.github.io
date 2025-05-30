@@ -5,6 +5,8 @@ title: "Home"
 
 ## 👋 Welcome
 
+![My Photo]({{ site.baseurl }}/assets/images/Website.jpg)
+
 I am a PhD researcher in Robotics at Toronto Metropolitan University.  
 My work focuses on aerial manipulation, visual servoing, and intelligent control systems.
 

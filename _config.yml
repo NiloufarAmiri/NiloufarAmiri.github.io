@@ -52,3 +52,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+navigation:
+  - title: "Home"
+    url: "/index"
+  - title: "Publications"
+    url: "/publications"
+  - title: "Awards"
+    url: "/awards"

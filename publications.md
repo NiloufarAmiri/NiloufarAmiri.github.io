@@ -37,7 +37,7 @@ permalink: /publications/
 ## Conference Papers
 
 1. S. Sepahvand, **N. Amiri**, and F. Janabi-Sharifi.  
-   “Deep Visual Servoing of an Aerial Robot Using Keypoint Feature Extraction,”  
+   [“Deep Visual Servoing of an Aerial Robot Using Keypoint Feature Extraction,”](https://doi.org/10.1109/ICUAS65942.2025.11007902)  
    *2025 International Conference on Unmanned Aircraft Systems (ICUAS)*, Charlotte, NC, USA, 2025
 
 2. **N. Amiri**, G. Wang, and F. Janabi-Sharifi.  

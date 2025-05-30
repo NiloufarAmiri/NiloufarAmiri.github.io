@@ -20,5 +20,5 @@ title: "Welcome / Bienvenue"
 - 🔗 [LinkedIn](https://www.linkedin.com/in/niloufar-amiri)
 - 📚 [Google Scholar](https://scholar.google.ca/citations?user=kEDzfXMAAAAJ&hl=en)
 - 🤖 [RMAL Lab Website](https://www.torontomu.ca/rmal)
-
+- 💻 [ResearchGate](https://www.researchgate.net/profile/Niloufar-Amiri)
 ---

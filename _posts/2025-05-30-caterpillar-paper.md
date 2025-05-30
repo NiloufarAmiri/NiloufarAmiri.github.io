@@ -20,11 +20,11 @@ To ensure a fair comparison, key control parameters are fine-tuned through a gen
 
 ## Figures
 
-<img src="/assets/images/motion_propagation.png" alt="Sequential motion propagation" style="width:60%; display:block; margin:auto;" />
-*Sequential motion propagation*
+<div style="text-align: center;">
+  <img src="/assets/images/motion_propagation.png" alt="Sequential motion propagation" style="width:60%; border-radius: 8px;">
+  <p style="font-style: italic; font-size: 0.9em; margin-top: 5px;">Sequential motion propagation</p>
+</div>
 
-<!-- ![Simulation Result](/assets/images/simulation-result.png)
-*Landing trajectory using hybrid control.* -->
 
 ## Read More
 

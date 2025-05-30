@@ -2,6 +2,15 @@
 layout: home
 title: "Welcome / Bienvenue"
 ---
+{% for post in site.posts %}
+  <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+    {{ post.excerpt }}
+    <div>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date: "%B %d, %Y" }}</p>
+    </div>
+  </div>
+{% endfor %}
 
 <style>
   .profile-container {

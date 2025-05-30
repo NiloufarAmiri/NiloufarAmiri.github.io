@@ -3,6 +3,8 @@ layout: post
 title: "Motion control of a caterpillar robot using optimized feedback linearization and sliding mode controllers"
 date: 2025-05-30
 categories: research papers
+excerpt: "<img src='/assets/images/motion_propagation.png' width='100' style='float:left; margin-right:10px;'> Motion control of a caterpillar robot using advanced control algorithms..."
+
 ---
 
 ## Article Overview
@@ -19,7 +21,7 @@ To ensure a fair comparison, key control parameters are fine-tuned through a gen
 
 ## Figures
 
-![System Diagram](/assets/images/motion_propagation.png)
+<img src="/assets/images/motion_propagation.png" alt="Sequential motion propagation" style="width:60%; display:block; margin:auto;" />
 *Sequential motion propagation*
 
 <!-- ![Simulation Result](/assets/images/simulation-result.png)
@@ -32,7 +34,6 @@ You can read the full paper [here](https://doi.org/10.1007/s40435-020-00736-6).
 ## Citation
 
 ```bibtex
-
 @article{amiri2021motion,
   title={Motion control of a caterpillar robot using optimized feedback linearization and sliding mode controllers},
   author={Amiri, Niloufar and Fakhari, Vahid and Sepahvand, Shayan},
@@ -43,3 +44,4 @@ You can read the full paper [here](https://doi.org/10.1007/s40435-020-00736-6).
   year={2021},
   publisher={Springer}
 }
+```

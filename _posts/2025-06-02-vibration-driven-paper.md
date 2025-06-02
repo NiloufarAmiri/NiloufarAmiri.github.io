@@ -3,7 +3,7 @@ layout: post
 title: "Optimization and control of an energy-efficient vibration-driven robot"
 date: 2025-06-02
 categories: research papers
-excerpt: "<img src='/assets/images/vibration_robot.png' width='150' style='border-radius: 8px;'>"
+excerpt: "<img src='/assets/images/vibration_robot.png' width='150' style='border-radius: 0px;'>"
 ---
 
 ## Article Overview

@@ -86,6 +86,5 @@ title: "Welcome / Bienvenue"
     <p style="color: rgba(22, 22, 22, 0.42); font-size: 0.8em; font-weight: bold; margin-top: -10px;">
       {{ post.date | date: "%B %d, %Y" }}
     </p>
-    </div>
   </article>
 {% endfor %}

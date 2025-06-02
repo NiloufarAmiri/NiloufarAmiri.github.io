@@ -79,11 +79,11 @@ title: "Welcome / Bienvenue"
   onmouseout="this.style.boxShadow='0 2px 6px rgba(0,0,0,0.05)'; this.style.borderColor='#ddd';"
   >
     <h2 style="margin-top: 0; font-size: 1em; font-weight: bold;">
-      <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #00274d; font-weight: bold;">
+      <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #3399ff; font-weight: bold;">
         {{ post.title }}
       </a>
     </h2>
-    <p style="color:rgba(22, 22, 22, 0.42); font-size: 0.8em; font-weight: bold; margin-top: -10px;">
+    <p style="color: rgba(22, 22, 22, 0.42); font-size: 0.8em; font-weight: bold; margin-top: -10px;">
       {{ post.date | date: "%B %d, %Y" }}
     </p>
     <div style="margin-top: 10px; font-size: 0.9em; font-weight: bold; color: #00274d;">

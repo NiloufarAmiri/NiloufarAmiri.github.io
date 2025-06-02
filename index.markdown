@@ -82,7 +82,7 @@ title: "Welcome / Bienvenue"
   onmouseout="this.style.boxShadow='0 2px 6px rgba(0,0,0,0.05)'; this.style.borderColor='#ddd';"
   >
     {% if post.image %}
-      <img src="{{ post.image }}" alt="Post image" style="width: 100px; height: auto; border-radius: 8px;">
+      <img src="{{ post.image }}" alt="Post image" style="width: 100px; height: auto; border-radius: 0px;">
     {% endif %}
 
     <div>

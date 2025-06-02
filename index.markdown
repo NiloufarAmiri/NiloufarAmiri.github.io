@@ -69,7 +69,7 @@ title: "Welcome / Bienvenue"
     <article style="
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
+      align-items: center;
       padding: 20px;
       border-radius: 12px;
       background-color: #ffffff;
@@ -78,23 +78,25 @@ title: "Welcome / Bienvenue"
       margin-bottom: 30px;
       transition: box-shadow 0.3s ease, border-color 0.3s ease;
       color: #00274d;
-      gap: 30px;
+      gap: 40px;
     "
     onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'; this.style.borderColor='#aaa';"
     onmouseout="this.style.boxShadow='0 2px 6px rgba(0,0,0,0.05)'; this.style.borderColor='#ddd';"
     >
-      <div style="flex: 1;">
-        <h2 style="margin-top: 0; font-size: 1em; font-weight: bold; color: rgb(91, 152, 214);">
+      <div style="flex-shrink: 0;">
+        <h2 style="margin: 0; font-size: 1em; font-weight: bold; color: rgb(91, 152, 214);">
           {{ post.title }}
         </h2>
-        <p style="color: rgba(22, 22, 22, 0.42); font-size: 0.8em; font-weight: bold; margin-top: -10px;">
+        <p style="margin: 5px 0 0 0; color: rgba(22, 22, 22, 0.42); font-size: 0.8em; font-weight: bold;">
           {{ post.date | date: "%B %d, %Y" }}
         </p>
       </div>
-      <div style="flex: 2; font-size: 0.9em; font-weight: bold; color: #00274d;">
+
+      <div style="flex-grow: 1; font-size: 0.9em; font-weight: bold; color: #00274d;">
         {{ post.excerpt }}
       </div>
     </article>
   </a>
 {% endfor %}
+
 

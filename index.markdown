@@ -66,6 +66,9 @@ title: "Welcome / Bienvenue"
 
 {% for post in site.posts %}
   <article style="
+    display: flex;
+    align-items: center;
+    gap: 20px;
     padding: 20px;
     border-radius: 12px;
     background-color: #ffffff;
@@ -78,16 +81,22 @@ title: "Welcome / Bienvenue"
   onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'; this.style.borderColor='#aaa';"
   onmouseout="this.style.boxShadow='0 2px 6px rgba(0,0,0,0.05)'; this.style.borderColor='#ddd';"
   >
-    <h2 style="margin-top: 0; font-size: 1em; font-weight: bold;">
-      <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #00274d; font-weight: bold;">
-        {{ post.title }}
-      </a>
-    </h2>
-    <p style="color: #00274d; font-size: 0.8em; font-weight: bold; margin-top: -10px;">
-      {{ post.date | date: "%B %d, %Y" }}
-    </p>
-    <div style="margin-top: 10px; font-size: 0.9em; font-weight: bold; color: #00274d;">
-      {{ post.excerpt }}
+    {% if post.image %}
+      <img src="{{ post.image }}" alt="Post image" style="width: 100px; height: auto; border-radius: 8px;">
+    {% endif %}
+
+    <div>
+      <h2 style="margin-top: 0; font-size: 1em; font-weight: bold;">
+        <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #00274d; font-weight: bold;">
+          {{ post.title }}
+        </a>
+      </h2>
+      <p style="color: #00274d; font-size: 0.8em; font-weight: bold; margin-top: -10px;">
+        {{ post.date | date: "%B %d, %Y" }}
+      </p>
+      <div style="margin-top: 10px; font-size: 0.9em; font-weight: bold; color: #00274d;">
+        {{ post.excerpt }}
+      </div>
     </div>
   </article>
 {% endfor %}

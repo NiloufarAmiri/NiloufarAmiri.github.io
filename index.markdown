@@ -100,6 +100,3 @@ title: "Welcome / Bienvenue"
     </div>
   </article>
 {% endfor %}
-
-
-

@@ -23,7 +23,7 @@ The study concludes with a comparative evaluation of the two control methods, hi
 ## Figures
 
 <div style="text-align: center;">
-  <img src="/assets/images/vibration_robot.png" alt=" Schematic of the analyzed vibration-driven robot." style="width:60%; border-radius: 8px;">
+  <img src="/assets/images/vibration_robot.png" alt=" Schematic of the analyzed vibration-driven robot." style="width:60%; border-radius: 0px;">
   <p style="font-style: italic; font-size: 0.9em; margin-top: 5px;">Schematic of the analyzed vibration-driven robot</p>
 </div>
 

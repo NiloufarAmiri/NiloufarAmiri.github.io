@@ -3,7 +3,7 @@ layout: post
 title: "Robust controller design for a class of MIMO nonlinear systems using TOPSIS function-link fuzzy cerebellar model articulation controller and interval type-2 fuzzy compensator"
 date: 2025-06-02
 categories: research papers
-excerpt: "<img src='/assets/images/trajectory_tracking.png' width='150' style='border-radius: 8px;'>"
+excerpt: "<img src='/assets/images/trajectory_tracking' width='150' style='border-radius: 8px;'>"
 ---
 
 ## Article Overview

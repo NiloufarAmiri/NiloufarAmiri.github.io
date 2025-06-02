@@ -65,7 +65,7 @@ title: "Welcome / Bienvenue"
 ## Selected Works
 
 {% for post in site.posts %}
-  <article style="padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 30px; background-color: #fff;">
+  <article style="padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(162, 217, 231, 0.1); margin-bottom: 30px; background-color: #fff;">
     <h2 style="margin-top: 0;">
       <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #333;">
         {{ post.title }}

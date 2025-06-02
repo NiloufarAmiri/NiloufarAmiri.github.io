@@ -65,12 +65,15 @@ title: "Welcome / Bienvenue"
 ## Selected Works
 
 {% for post in site.posts %}
-  <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
-    {{ post.excerpt }}
-    <div>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.date | date: "%B %d, %Y" }}</p>
+  <article style="padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 30px; background-color: #fff;">
+    <h2 style="margin-top: 0;">
+      <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #333;">
+        {{ post.title }}
+      </a>
+    </h2>
+    <p style="color: #888; font-size: 0.9em; margin-top: -10px;">{{ post.date | date: "%B %d, %Y" }}</p>
+    <div style="margin-top: 10px;">
+      {{ post.excerpt }}
     </div>
-  </div>
-  <hr>
+  </article>
 {% endfor %}

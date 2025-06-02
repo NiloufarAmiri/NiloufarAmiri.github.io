@@ -79,7 +79,7 @@ title: "Welcome / Bienvenue"
   onmouseout="this.style.boxShadow='0 2px 6px rgba(0,0,0,0.05)'; this.style.borderColor='#ddd';"
   >
     <h2 style="margin-top: 0; font-size: 1em; font-weight: bold;">
-      <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #3399ff; font-weight: bold;">
+      <a href="{{ post.url | relative_url }}" style="text-decoration: none; color:rgb(91, 152, 214); font-weight: bold;">
         {{ post.title }}
       </a>
     </h2>

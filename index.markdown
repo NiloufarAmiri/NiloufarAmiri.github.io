@@ -72,6 +72,7 @@ title: "Welcome / Bienvenue"
       <p>{{ post.date | date: "%B %d, %Y" }}</p>
     </div>
   </div>
+  <hr>
 {% endfor %}
 
 ---

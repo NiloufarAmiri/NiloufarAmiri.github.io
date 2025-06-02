@@ -65,26 +65,36 @@ title: "Welcome / Bienvenue"
 ## Selected Works
 
 {% for post in site.posts %}
-  <article style="
-    padding: 20px;
-    border-radius: 12px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    margin-bottom: 30px;
-    transition: box-shadow 0.3s ease, border-color 0.3s ease;
-    color: #00274d;
-  "
-  onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'; this.style.borderColor='#aaa';"
-  onmouseout="this.style.boxShadow='0 2px 6px rgba(0,0,0,0.05)'; this.style.borderColor='#ddd';"
-  >
-    <h2 style="margin-top: 0; font-size: 1em; font-weight: bold;">
-      <a href="{{ post.url | relative_url }}" style="text-decoration: none; color:rgb(91, 152, 214); font-weight: bold;">
-        {{ post.title }}
-      </a>
-    </h2>
-    <p style="color: rgba(22, 22, 22, 0.42); font-size: 0.8em; font-weight: bold; margin-top: -10px;">
-      {{ post.date | date: "%B %d, %Y" }}
-    </p>
-  </article>
+  <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit;">
+    <article style="
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 20px;
+      border-radius: 12px;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      margin-bottom: 30px;
+      transition: box-shadow 0.3s ease, border-color 0.3s ease;
+      color: #00274d;
+      gap: 30px;
+    "
+    onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'; this.style.borderColor='#aaa';"
+    onmouseout="this.style.boxShadow='0 2px 6px rgba(0,0,0,0.05)'; this.style.borderColor='#ddd';"
+    >
+      <div style="flex: 1;">
+        <h2 style="margin-top: 0; font-size: 1em; font-weight: bold; color: rgb(91, 152, 214);">
+          {{ post.title }}
+        </h2>
+        <p style="color: rgba(22, 22, 22, 0.42); font-size: 0.8em; font-weight: bold; margin-top: -10px;">
+          {{ post.date | date: "%B %d, %Y" }}
+        </p>
+      </div>
+      <div style="flex: 2; font-size: 0.9em; font-weight: bold; color: #00274d;">
+        {{ post.excerpt }}
+      </div>
+    </article>
+  </a>
 {% endfor %}
+

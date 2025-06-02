@@ -73,22 +73,24 @@ title: "Welcome / Bienvenue"
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     margin-bottom: 30px;
     transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    color: #00274d;
   "
   onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'; this.style.borderColor='#aaa';"
   onmouseout="this.style.boxShadow='0 2px 6px rgba(0,0,0,0.05)'; this.style.borderColor='#ddd';"
   >
     <h2 style="margin-top: 0; font-size: 1em; font-weight: bold;">
-      <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #333; font-weight: bold;">
+      <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #00274d; font-weight: bold;">
         {{ post.title }}
       </a>
     </h2>
-    <p style="color: #666; font-size: 0.8em; font-weight: bold; margin-top: -10px;">
+    <p style="color: #00274d; font-size: 0.8em; font-weight: bold; margin-top: -10px;">
       {{ post.date | date: "%B %d, %Y" }}
     </p>
-    <div style="margin-top: 10px; font-size: 0.9em; font-weight: bold;">
+    <div style="margin-top: 10px; font-size: 0.9em; font-weight: bold; color: #00274d;">
       {{ post.excerpt }}
     </div>
   </article>
 {% endfor %}
+
 
 

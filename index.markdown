@@ -74,5 +74,3 @@ title: "Welcome / Bienvenue"
   </div>
   <hr>
 {% endfor %}
-
----

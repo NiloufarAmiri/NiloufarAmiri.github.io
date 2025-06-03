@@ -15,11 +15,11 @@ To control the UAV, a visual error signal is computed and translated into a thru
 The proposed approach is validated through extensive simulations in ROS-Gazebo and real-world flight tests, surpassing many prior studies that rely only on MATLAB environments. Finally, system stability is rigorously confirmed using Lyapunov analysis, accounting for all modeled uncertainties.
 
 ## Key Features
-Moment-Based Visual Features: Utilizes zeroth, first, and second image moments to extract position and yaw-related features from a binary image, enabling precise image-based control.
+- Moment-Based Visual Features: Utilizes zeroth, first, and second image moments to extract position and yaw-related features from a binary image, enabling precise image-based control.
 
-Adaptive Neural Compensation: Incorporates a self-organizing neural network (SONN) to handle uncertainties from target velocity changes and payload variations, improving robustness.
+- Adaptive Neural Compensation: Incorporates a self-organizing neural network (SONN) to handle uncertainties from target velocity changes and payload variations, improving robustness.
 
-Real-World Validation and Stability Proof: Validated through both ROS-Gazebo simulations and physical experiments, with system stability guaranteed via Lyapunov-based analysis under uncertainty.
+- Real-World Validation and Stability Proof: Validated through both ROS-Gazebo simulations and physical experiments, with system stability guaranteed via Lyapunov-based analysis under uncertainty.
 ## Figures
 
 <div style="text-align: center;">

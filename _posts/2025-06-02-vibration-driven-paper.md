@@ -30,7 +30,7 @@ The study concludes with a comparative evaluation of the two control methods, hi
 
 ## Read More
 
-You can read the full paper [here](https://doi-org.ezproxy.lib.torontomu.ca/10.1177/10775463231175543).
+You can read the full paper [here](https://doi.org/10.1177/10775463231175543).
 
 ## Citation
 

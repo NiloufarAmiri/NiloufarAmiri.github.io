@@ -20,6 +20,7 @@ To execute a precise descent, four synthetic points—based on the UAV’s size�
 - Risk-Aware Landing Site Selection: Processes RGB images and point clouds to evaluate terrain characteristics (flatness, inclination, depth variation), identifying the safest landing region via a fuzzy suitability map and point cloud projection.
 
 - IBVS-Based Landing Execution: Enhances final landing precision using image-based visual servoing (IBVS) guided by synthetic points and image moment features, tailored to the UAV's physical dimensions.
+
 ## Figures
 
 <div style="text-align: center;">

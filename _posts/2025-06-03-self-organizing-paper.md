@@ -20,6 +20,7 @@ The proposed approach is validated through extensive simulations in ROS-Gazebo a
 - Adaptive Neural Compensation: Incorporates a self-organizing neural network (SONN) to handle uncertainties from target velocity changes and payload variations, improving robustness.
 
 - Real-World Validation and Stability Proof: Validated through both ROS-Gazebo simulations and physical experiments, with system stability guaranteed via Lyapunov-based analysis under uncertainty.
+
 ## Figures
 
 <div style="text-align: center;">

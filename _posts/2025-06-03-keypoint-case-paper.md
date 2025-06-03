@@ -20,6 +20,7 @@ Two key enhancements are introduced: substituting max-pooling with average-pooli
 - Customized and Augmented Dataset for Training: A dataset is created using images from a robot-mounted camera, automatically labeled and augmented through rotation and flipping to improve model generalization.
 
 - Enhanced CNN Architecture for Improved Accuracy: Modifications to the VGG-19 network—replacing max-pooling with average-pooling and introducing an adaptive learning rate—result in a 50% reduction in validation loss.
+
 ## Figures
 
 <div style="text-align: center;">

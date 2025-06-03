@@ -15,11 +15,12 @@ A key contribution is the derivation of a conventional-format coupled Jacobian, 
 Comparative results show significant improvements in trajectory tracking performance, especially for complex and time-sensitive maneuvers. Real-world experiments on a physical aerial continuum manipulator validate the proposed model and control strategy.
 
 ## Key Features
-- Fusion of Fuzzy Logic and vSLAM: Combines fuzzy inference with visual SLAM to generate a reliable and adaptive landing zone detection pipeline in unstructured environments.
+- Full-Body Deformation Modeling: Captures all six deformation modes of the continuum robot segments using strain-based Cosserat rod theory, surpassing models that only consider planar bending.
 
-- Risk-Aware Landing Site Selection: Processes RGB images and point clouds to evaluate terrain characteristics (flatness, inclination, depth variation), identifying the safest landing region via a fuzzy suitability map and point cloud projection.
+- Simplified Control via Coupled Jacobian: Introduces a conventional-form Jacobian that facilitates kinematics-based control design without solving stiff differential–algebraic equations.
 
-- IBVS-Based Landing Execution: Enhances final landing precision using image-based visual servoing (IBVS) guided by synthetic points and image moment features, tailored to the UAV's physical dimensions.
+- Validated High-Performance IBVS: Demonstrates superior trajectory tracking in image-based visual servoing (IBVS) tasks, confirmed through both simulations and real-world experiments with a physical prototype.
+
 ## Figures
 
 <div style="text-align: center;">

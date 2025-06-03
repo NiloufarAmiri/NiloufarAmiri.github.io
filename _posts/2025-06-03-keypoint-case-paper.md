@@ -12,16 +12,19 @@ This study presents a novel keypoint detection method using Convolutional Neural
 
 A custom dataset is generated from images captured by a robot-mounted camera during random movements in its workspace. The dataset is automatically labeled and augmented through rotation and flipping to enhance training diversity. The CNN is adapted from the VGG-19 architecture pre-trained on ImageNet, with the base layers frozen and the fully connected layers fine-tuned to minimize the mean absolute error between predicted and actual keypoint positions.
 
-Two key enhancements are introduced: substituting max-pooling with average-pooling in the feature extractor and applying a progressively decreasing adaptive learning rate. These refinements result in a 50% drop in validation loss. The model’s generalization capability is further verified using k-fold cross-validation.energy-efficient and accurate locomotion for the vibration-driven robot.
+Two key enhancements are introduced: substituting max-pooling with average-pooling in the feature extractor and applying a progressively decreasing adaptive learning rate. These refinements result in a 50% drop in validation loss. The model’s generalization capability is further verified using k-fold cross-validation.
 
 ## Key Features
-- CNN-Based Keypoint Detection Without Fiducial Markers
+- CNN-Based Keypoint Detection Without Fiducial Markers:
+
 A novel CNN model is developed to detect keypoints representing realistic object corners, eliminating the reliance on fiducial markers in visual servoing tasks.
 
-- Customized and Augmented Dataset for Training
+- Customized and Augmented Dataset for Training:
+
 A dataset is created using images from a robot-mounted camera, automatically labeled and augmented through rotation and flipping to improve model generalization.
 
-- Enhanced CNN Architecture for Improved Accuracy
+- Enhanced CNN Architecture for Improved Accuracy:
+
 Modifications to the VGG-19 network—replacing max-pooling with average-pooling and introducing an adaptive learning rate—result in a 50% reduction in validation loss.
 ## Figures
 

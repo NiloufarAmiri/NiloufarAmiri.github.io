@@ -23,7 +23,7 @@ To execute a precise descent, four synthetic points—based on the UAV’s size�
 ## Figures
 
 <div style="text-align: center;">
-  <img src="/assets/drones_pipline.png" alt="The proposed landing system structure. The major subsystems are highlighted. The blocks highlighted in green represent the inputs. The yellow area corresponds to the vSLAM system. The red section illustrates the fuzzy map construction and postprocessing of vSLAM keypoints. The area highlighted in purple shows the IBVS landing subsystem. The black arrows show the data direction." style="width:60%; border-radius: 0px;">
+  <img src="/assets/images/drones_pipline.png" alt="The proposed landing system structure. The major subsystems are highlighted. The blocks highlighted in green represent the inputs. The yellow area corresponds to the vSLAM system. The red section illustrates the fuzzy map construction and postprocessing of vSLAM keypoints. The area highlighted in purple shows the IBVS landing subsystem. The black arrows show the data direction." style="width:60%; border-radius: 0px;">
   <p style="font-style: italic; font-size: 0.9em; margin-top: 5px;">The proposed landing system structure. The major subsystems are highlighted. The blocks highlighted in green represent the inputs. The yellow area corresponds to the vSLAM system. The red section illustrates the fuzzy map construction and postprocessing of vSLAM keypoints. The area highlighted in purple shows the IBVS landing subsystem. The black arrows show the data direction.</p>
 </div>
 

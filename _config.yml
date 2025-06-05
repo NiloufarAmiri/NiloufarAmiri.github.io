@@ -11,7 +11,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-header_pages:
-  - index.md
-  - publications.md
-  - awards.md
+# header_pages:
+#   - index.md
+#   - publications.md
+#   - awards.md

@@ -84,3 +84,32 @@ body {
   font-weight: bold;
   margin-top: -10px;
 }
+
+.site-header {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #ddd;
+  backdrop-filter: blur(6px);
+  padding: 1rem 0;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #00274d;
+}
+
+.site-nav {
+  margin-top: 0.5rem;
+}
+
+.site-nav a {
+  margin-left: 1rem;
+  color: #0077cc;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}

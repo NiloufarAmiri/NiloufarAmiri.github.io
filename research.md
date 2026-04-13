@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /publications/
+permalink: /research/
 ---
 
 # 📚 Under-Review Manuscripts

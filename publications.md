@@ -1,11 +1,10 @@
 ---
 layout: page
-title: "Research"
-permalink: /research/
+title: Publications
+permalink: /publications/
 ---
 
 # 📚 Under-Review Manuscripts
-
 1. **N. Amiri** and F. Janabi-Sharifi.  
    [“Strain-Parameterized Coupled Dynamics and Dual-Camera Visual Servoing for Aerial Continuum Manipulators”](https://doi.org/10.48550/arXiv.2603.23333),  
    February 2026

@@ -6,14 +6,12 @@ permalink: /publications/
 
 # 📚 Under-Review Manuscripts
 
-1. N. Amiri and F. Janabi-Sharifi  
-   “Strain-Parameterized Coupled Dynamics and Dual-Camera Visual Servoing for Aerial Continuum Manipulators”  
-   https://doi.org/10.48550/arXiv.2603.23333  
+1. **N. Amiri** and F. Janabi-Sharifi.  
+   [“Strain-Parameterized Coupled Dynamics and Dual-Camera Visual Servoing for Aerial Continuum Manipulators”](https://doi.org/10.48550/arXiv.2603.23333),  
    February 2026
 
-2. N. Amiri, S. Sepahvand, I. Mantegh, and F. Janabi-Sharifi  
-   “Systematic Analysis of Coupling Effects on Closed-Loop and Open-Loop Performance in Aerial Continuum Manipulators”  
-   https://doi.org/10.48550/arXiv.2602.18684  
+2. **N. Amiri**, Shayan Sepahvand, Iraj Mantegh, Farrokh Janabi-Sharifi  
+   [“Systematic Analysis of Coupling Effects on Closed-Loop and Open-Loop Performance in Aerial Continuum Manipulators”](https://doi.org/10.48550/arXiv.2602.18684),  
    February 2026
 
 # 📚 Peer-Reviewed Publications

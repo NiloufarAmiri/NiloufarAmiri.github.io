@@ -36,6 +36,13 @@
             Conferences
           </a>
         </li>
+
+        <li>
+          <a href="{{ '/teaching/' | relative_url }}"
+             {% if page.url == '/teaching/' %}aria-current="page"{% endif %}>
+            Teaching
+          </a>
+        </li>
       </ul>
     </div>
 

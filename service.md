@@ -38,26 +38,26 @@ I contribute to the robotics and engineering research community through technica
 
 ## Academic Leadership &amp; Organization
 
-<div class="service-activity-list">
+<div class="service-activity-list" aria-label="Academic leadership and organizing roles">
   <article class="service-activity-card">
-    <div class="service-activity-top">
-      <h3>8th International Conference on Acoustic and Vibration</h3>
-      <span class="service-role">Executive Committee Member</span>
+    <div class="service-activity-body">
+      <h3 class="service-activity-title">8th International Conference on Acoustic and Vibration</h3>
+      <p class="service-activity-position">Executive Committee Member</p>
     </div>
   </article>
 
   <article class="service-activity-card">
-    <div class="service-activity-top">
-      <h3>2025 INRIA–TMU Workshop</h3>
-      <span class="service-role">Organizing Committee Member</span>
+    <div class="service-activity-body">
+      <h3 class="service-activity-title">2025 INRIA–TMU Workshop</h3>
+      <p class="service-activity-position">Organizing Committee Member</p>
     </div>
   </article>
 
   <article class="service-activity-card">
-    <div class="service-activity-top">
-      <h3>TMU Robotics Council</h3>
-      <span class="service-role">Member &amp; Co-organizer</span>
+    <div class="service-activity-body">
+      <h3 class="service-activity-title">TMU Robotics Council</h3>
+      <p class="service-activity-position">Member &amp; Co-organizer</p>
     </div>
-    <p class="service-activity-note">2026</p>
+    <span class="service-activity-year" aria-label="Year 2026">2026</span>
   </article>
 </div>

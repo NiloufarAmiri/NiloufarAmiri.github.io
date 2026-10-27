@@ -1,0 +1,17 @@
+title: Niloufar Amiri
+description: >- 
+  Research, publications, and projects of Niloufar Amiri, a PhD researcher in robotics at Toronto Metropolitan University.
+
+baseurl: "" 
+url: "https://NiloufarAmiri.github.io"
+
+github_username:  NiloufarAmiri
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+# header_pages:
+#   - index.md
+#   - publications.md
+#   - awards.md

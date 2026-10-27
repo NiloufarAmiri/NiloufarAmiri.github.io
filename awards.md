@@ -34,7 +34,7 @@ permalink: /awards/
     <div class="award-topline"><span class="award-symbol" aria-hidden="true">✦</span></div>
     <h3 class="award-title">Dr. Jacob and Helen Friedman Graduate Excellence Award</h3>
     <p class="award-issuer">Toronto Metropolitan University</p>
-    <p class="award-description">TMU's highest graduate award in the Department of Mechanical, Industrial, and Mechatronics Engineering, recognizing exceptional academic and research performance.</p>
+    <p class="award-description">The highest graduate award in TMU's Department of Mechanical, Industrial, and Mechatronics Engineering, recognizing academic and research excellence.</p>
   </article>
   <article class="award-card">
     <div class="award-topline"><span class="award-symbol" aria-hidden="true">✦</span></div>

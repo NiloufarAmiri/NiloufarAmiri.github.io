@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Welcome / Bienvenue"
 ---
 
 <div class="home-page">
@@ -25,9 +24,7 @@ title: "Welcome / Bienvenue"
   <section class="home-section home-works-section" aria-labelledby="home-works-title">
     <div class="home-section-heading">
       <div>
-        <p class="home-eyebrow">Research</p>
         <h2 id="home-works-title">Selected Works</h2>
-        <p class="home-section-summary">Selected studies in robotics, dynamics, and intelligent control.</p>
       </div>
       <a class="home-section-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a>
     </div>
@@ -50,9 +47,7 @@ title: "Welcome / Bienvenue"
   <section class="home-section home-connect-section" aria-labelledby="home-connect-title">
     <div class="home-section-heading">
       <div>
-        <p class="home-eyebrow">Academic Profiles</p>
         <h2 id="home-connect-title">Connect with Me</h2>
-        <p class="home-section-summary">Find publications, research updates, and laboratory information.</p>
       </div>
     </div>
     <nav class="connect-links" aria-label="Professional and research profiles">

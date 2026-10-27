@@ -10,7 +10,6 @@ title: "Welcome / Bienvenue"
         <img class="profile-image" src="{{ '/assets/images/Website.jpg' | relative_url }}" alt="Portrait of Niloufar Amiri" width="200" decoding="async">
       </div>
       <div class="profile-text">
-        <p class="home-eyebrow">Robotics · Modeling · Vision-Guided Control</p>
         <h1 class="home-hero-title" id="home-intro-heading">About Me</h1>
         <p>I am a researcher at the Robotics, Mechatronics and Automation Laboratory (RMAL) at Toronto Metropolitan University, working on autonomous hybrid robots that integrate rigid and soft components. My research focuses on understanding the complex interactions between different modules of the robot and controlling their motion through visual feedback.</p>
         <p>Addressing these challenges requires a strong foundation in continuum mechanics and advanced control theory. With a background in mechanical engineering, I have hands-on experience developing experimental robotic platforms, designing physical simulators, and implementing novel control algorithms at different levels.</p>

@@ -904,16 +904,6 @@ body {
   font-size: 0.9rem;
   line-height: 1.75;
 }
-.home-eyebrow,
-.home-page .profile-text .home-eyebrow {
-  margin: 0 0 0.25rem;
-  color: #3d67a4;
-  font-size: 0.71rem;
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: 0.075em;
-  text-transform: uppercase;
-}
 .main-content .home-hero-title {
   margin: 0.15rem 0 0.9rem;
   font-size: clamp(1.7rem, 2.65vw, 2.08rem);
@@ -954,12 +944,6 @@ body {
   font-weight: 600;
   line-height: 1.35;
   letter-spacing: -0.02em;
-}
-.home-section-summary {
-  margin: 0.35rem 0 0;
-  color: #627188;
-  font-size: 0.85rem;
-  line-height: 1.6;
 }
 .main-content .home-section-link {
   display: inline-flex;
@@ -1088,15 +1072,6 @@ body {
   margin-bottom: 0.65rem;
   padding-bottom: 0.7rem;
   border-bottom: 1px solid #ecf1f8;
-}
-.service-category {
-  display: inline-block;
-  margin-bottom: 0.3rem;
-  color: #4c77b0;
-  font-size: 0.71rem;
-  font-weight: 600;
-  letter-spacing: 0.045em;
-  text-transform: uppercase;
 }
 .main-content .service-review-heading h3 {
   margin: 0;

@@ -388,6 +388,97 @@ body {
   }
 }
 
+/* Teaching: clear, linked course-code cards */
+.teaching-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.15rem 0 1.5rem;
+}
+
+.teaching-list li {
+  min-width: 0;
+  margin: 0;
+}
+
+.main-content .teaching-course {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.45rem;
+  min-height: 115px;
+  height: 100%;
+  padding: 1.05rem 2.25rem 1.05rem 1.15rem;
+  border: 1px solid #e1e8f4;
+  border-radius: 12px;
+  background: #fff;
+  color: #1d2d49;
+  text-decoration: none;
+  box-shadow: 0 3px 14px rgba(25, 50, 100, 0.035);
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.teaching-code {
+  color: #315fa4;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.teaching-title {
+  color: inherit;
+  font-size: 0.97rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.teaching-arrow {
+  position: absolute;
+  top: 1rem;
+  right: 1.15rem;
+  color: #8fa3c1;
+  font-size: 1.08rem;
+  transition: transform 180ms ease, color 180ms ease;
+}
+
+.main-content .teaching-course:hover,
+.main-content .teaching-course:focus-visible {
+  border-color: #9fbbe7;
+  box-shadow: 0 9px 21px rgba(38, 83, 150, 0.09);
+  transform: translateY(-2px);
+}
+
+.main-content .teaching-course:hover .teaching-arrow,
+.main-content .teaching-course:focus-visible .teaching-arrow {
+  color: #285cb0;
+  transform: translate(2px, -2px);
+}
+
+.main-content .teaching-course:focus-visible {
+  outline: 2px solid #3264b3;
+  outline-offset: 3px;
+}
+
+.teaching-source-note {
+  color: #66758b;
+  font-size: 0.84rem;
+}
+
+@media (max-width: 590px) {
+  .teaching-list { grid-template-columns: 1fr; }
+  .main-content .teaching-course { min-height: 97px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main-content .teaching-course,
+  .teaching-arrow { transition: none; }
+  .main-content .teaching-course:hover,
+  .main-content .teaching-course:focus-visible { transform: none; }
+}
+
 /* Selected works */
 .post-card {
   display: flex;

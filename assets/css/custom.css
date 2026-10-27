@@ -710,6 +710,13 @@ body {
   line-height: 1.65;
 }
 
+/* Desktop: reduce ornamentation; keep the established mobile card design. */
+@media (min-width: 701px) {
+  .award-topline { display: none; }
+  .award-card { padding: 1.35rem 1.4rem; }
+  .award-issuer { margin-top: 0.55rem; }
+}
+
 /* Publications: single-column cards keep long titles and citations readable. */
 .publication-list {
   display: grid;

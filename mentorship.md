@@ -4,7 +4,7 @@ title: "Research Mentorship"
 permalink: /mentorship/
 ---
 
-My mentorship experience includes guiding research assistants, Mitacs interns, and undergraduate researchers on projects involving aerial manipulation, continuum robotics, and bio-inspired systems.
+I have mentored students on projects in aerial manipulation, continuum robotics, and bio-inspired systems.
 
 ## Students Mentored
 

@@ -10,7 +10,7 @@
     <!-- Site styles -->
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
     <!-- Custom styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

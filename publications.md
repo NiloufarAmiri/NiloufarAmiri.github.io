@@ -4,9 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-## Peer-Reviewed Publications
-
-### Journal Papers
+## Journal Papers
 
 <div class="publication-list">
   <article class="publication-card">
@@ -67,7 +65,7 @@ permalink: /publications/
   </article>
 </div>
 
-### Conference Papers
+## Conference Papers
 
 <div class="publication-list">
   <article class="publication-card">

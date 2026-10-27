@@ -74,4 +74,4 @@ Graduate Teaching Assistant (GTA) at Toronto Metropolitan University, supporting
   </li>
 </ul>
 
-<p class="teaching-source-note">Course codes and official titles are linked to the <a href="https://www.torontomu.ca/calendar/2026-2027/courses/mechanical-engineering/" target="_blank" rel="noopener noreferrer">Toronto Metropolitan University undergraduate course calendar</a>.</p>
+<p class="teaching-source-note">Source: <a href="https://www.torontomu.ca/calendar/2026-2027/courses/mechanical-engineering/" target="_blank" rel="noopener noreferrer">TMU Undergraduate Course Calendar (2026–2027)</a>.</p>

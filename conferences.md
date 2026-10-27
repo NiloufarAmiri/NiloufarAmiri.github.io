@@ -4,8 +4,6 @@ title: "Conferences & Workshops"
 permalink: /conferences/
 ---
 
-Conferences, symposia, and workshops attended, including selected presentation and exhibition roles.
-
 ## 2026
 
 <ul class="event-list">

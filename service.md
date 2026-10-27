@@ -4,8 +4,6 @@ title: "Professional Service"
 permalink: /service/
 ---
 
-I contribute to the robotics and engineering research community through technical peer review, conference organization, and academic service.
-
 ## Technical Reviewer
 
 <div class="service-review-grid">

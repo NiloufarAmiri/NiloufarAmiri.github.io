@@ -23,7 +23,7 @@ permalink: /awards/
     <div class="award-topline"><span class="award-symbol" aria-hidden="true">✦</span></div>
     <h3 class="award-title">Nominee for the Canada Graduate Scholarships — Doctoral (CGS-D) Award</h3>
     <p class="award-issuer">Natural Sciences and Engineering Research Council of Canada</p>
-    <p class="award-description">Nominated for this national doctoral research scholarship in recognition of academic excellence and research potential.</p>
+    <p class="award-description">Nominated for this competitive doctoral research scholarship.</p>
   </article>
 </div>
 
@@ -34,7 +34,7 @@ permalink: /awards/
     <div class="award-topline"><span class="award-symbol" aria-hidden="true">✦</span></div>
     <h3 class="award-title">Dr. Jacob and Helen Friedman Graduate Excellence Award</h3>
     <p class="award-issuer">Toronto Metropolitan University</p>
-    <p class="award-description">The department's highest graduate award, recognizing exceptional academic and research performance.</p>
+    <p class="award-description">TMU's highest graduate award in the Department of Mechanical, Industrial, and Mechatronics Engineering, recognizing exceptional academic and research performance.</p>
   </article>
   <article class="award-card">
     <div class="award-topline"><span class="award-symbol" aria-hidden="true">✦</span></div>

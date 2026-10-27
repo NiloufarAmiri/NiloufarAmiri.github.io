@@ -9,7 +9,6 @@ permalink: /service/
 <div class="service-review-grid">
   <section class="service-review-card" aria-labelledby="service-journals">
     <div class="service-review-heading">
-      <span class="service-category">Peer Review</span>
       <h3 id="service-journals">Journals</h3>
     </div>
     <ul class="service-review-list">
@@ -23,7 +22,6 @@ permalink: /service/
 
   <section class="service-review-card" aria-labelledby="service-conferences">
     <div class="service-review-heading">
-      <span class="service-category">Peer Review</span>
       <h3 id="service-conferences">Conferences</h3>
     </div>
     <ul class="service-review-list">

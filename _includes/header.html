@@ -50,6 +50,13 @@
             Mentorship
           </a>
         </li>
+
+        <li>
+          <a href="{{ '/service/' | relative_url }}"
+             {% if page.url == '/service/' %}aria-current="page"{% endif %}>
+            Service
+          </a>
+        </li>
       </ul>
     </div>
 

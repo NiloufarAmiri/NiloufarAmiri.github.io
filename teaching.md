@@ -4,7 +4,7 @@ title: "Teaching Experience"
 permalink: /teaching/
 ---
 
-I have supported undergraduate engineering education as a **Graduate Teaching Assistant (GTA)** at Toronto Metropolitan University, contributing to courses across mechanics, control, manufacturing, design, and materials.
+Graduate Teaching Assistant (GTA) at Toronto Metropolitan University, supporting undergraduate engineering courses.
 
 ## Courses Supported
 

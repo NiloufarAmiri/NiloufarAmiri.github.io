@@ -44,7 +44,7 @@ My mentorship experience includes guiding research assistants, Mitacs interns, a
       <h3 class="mentorship-name">Koroush Sohrabi</h3>
       <span class="mentorship-role">Undergraduate Researcher</span>
     </div>
-    <p class="mentorship-institution">Toronto Metropolitan University</p>
+    <p class="mentorship-institution">Shahid Beheshti University</p>
     <div class="mentorship-item">
       <span class="mentorship-label">Research project</span>
       <p class="mentorship-project">Optimization and Control of an Energy-Efficient Vibration-Driven Robot</p>
@@ -59,7 +59,7 @@ My mentorship experience includes guiding research assistants, Mitacs interns, a
       <h3 class="mentorship-name">Ghazal Eftekharian</h3>
       <span class="mentorship-role">Undergraduate Researcher</span>
     </div>
-    <p class="mentorship-institution">Toronto Metropolitan University</p>
+    <p class="mentorship-institution">Shahid Beheshti University</p>
     <div class="mentorship-item">
       <span class="mentorship-label">Research project</span>
       <p class="mentorship-project">Optimization and Control of an Energy-Efficient Vibration-Driven Robot</p>

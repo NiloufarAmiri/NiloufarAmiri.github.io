@@ -3,21 +3,60 @@ layout: default
 title: "Welcome / Bienvenue"
 ---
 
-<div class="profile-container">
-  <img class="profile-image" src="{{ '/assets/images/Website.jpg' | relative_url }}" alt="Portrait of Niloufar Amiri" width="200" decoding="async">
+<div class="home-page">
+  <section class="home-intro" aria-labelledby="home-intro-heading">
+    <div class="profile-container">
+      <div class="profile-photo-wrap">
+        <img class="profile-image" src="{{ '/assets/images/Website.jpg' | relative_url }}" alt="Portrait of Niloufar Amiri" width="200" decoding="async">
+      </div>
+      <div class="profile-text">
+        <p class="home-eyebrow">Robotics · Modeling · Vision-Guided Control</p>
+        <h1 class="home-hero-title" id="home-intro-heading">About Me</h1>
+        <p>I am a researcher at the Robotics, Mechatronics and Automation Laboratory (RMAL) at Toronto Metropolitan University, working on autonomous hybrid robots that integrate rigid and soft components. My research focuses on understanding the complex interactions between different modules of the robot and controlling their motion through visual feedback.</p>
+        <p>Addressing these challenges requires a strong foundation in continuum mechanics and advanced control theory. With a background in mechanical engineering, I have hands-on experience developing experimental robotic platforms, designing physical simulators, and implementing novel control algorithms at different levels.</p>
+        <div class="home-research-tags" aria-label="Research interests">
+          <span>Continuum Robotics</span>
+          <span>Aerial Manipulation</span>
+          <span>Visual Servoing</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <div class="profile-text">
-    <p>I am a researcher at the Robotics, Mechatronics and Automation Laboratory (RMAL) at Toronto Metropolitan University, working on autonomous hybrid robots that integrate rigid and soft components. My research focuses on understanding the complex interactions between different modules of the robot and controlling their motion through visual feedback.</p>
+  <section class="home-section home-works-section" aria-labelledby="home-works-title">
+    <div class="home-section-heading">
+      <div>
+        <p class="home-eyebrow">Research</p>
+        <h2 id="home-works-title">Selected Works</h2>
+        <p class="home-section-summary">Selected studies in robotics, dynamics, and intelligent control.</p>
+      </div>
+      <a class="home-section-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a>
+    </div>
 
-    <p>Addressing these challenges requires a strong foundation in continuum mechanics and advanced control theory. With a background in mechanical engineering, I have hands-on experience developing experimental robotic platforms, designing physical simulators, and implementing novel control algorithms at different levels.</p>
-  </div>
-</div>
+    <div class="home-post-list">
+    {% for post in site.posts %}
+      <article class="post-card">
+        <div class="post-thumbnail" aria-hidden="true">
+          {{ post.excerpt }}
+        </div>
+        <div class="post-info">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <a class="post-read-more" href="{{ post.url | relative_url }}">Explore this work <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    {% endfor %}
+    </div>
+  </section>
 
----
-
-## Connect with Me
-
-<nav class="connect-links" aria-label="Professional and research profiles">
+  <section class="home-section home-connect-section" aria-labelledby="home-connect-title">
+    <div class="home-section-heading">
+      <div>
+        <p class="home-eyebrow">Academic Profiles</p>
+        <h2 id="home-connect-title">Connect with Me</h2>
+        <p class="home-section-summary">Find publications, research updates, and laboratory information.</p>
+      </div>
+    </div>
+    <nav class="connect-links" aria-label="Professional and research profiles">
   <a class="connect-link" href="https://www.linkedin.com/in/niloufar-amiri" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn, opens in a new tab">
     <span class="connect-top">
       <span class="connect-icon" aria-hidden="true">
@@ -76,23 +115,5 @@ title: "Welcome / Bienvenue"
     <span class="connect-description">Research laboratory</span>
   </a>
 </nav>
-
----
-
-## Selected Works
-
-{% for post in site.posts %}
-  <article class="post-card">
-    <div class="post-thumbnail" aria-hidden="true">
-      {{ post.excerpt }}
-    </div>
-    <div class="post-info">
-      <h2>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h2>
-      <p class="post-date">
-        Posted <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y" }}</time>
-      </p>
-    </div>
-  </article>
-{% endfor %}
+  </section>
+</div>

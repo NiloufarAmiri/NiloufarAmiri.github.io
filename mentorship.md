@@ -4,7 +4,7 @@ title: "Research Mentorship"
 permalink: /mentorship/
 ---
 
-At Toronto Metropolitan University, I have mentored research assistants, Mitacs interns, and undergraduate researchers on projects involving aerial manipulation, continuum robotics, and bio-inspired systems.
+My mentorship experience includes guiding research assistants, Mitacs interns, and undergraduate researchers on projects involving aerial manipulation, continuum robotics, and bio-inspired systems.
 
 ## Students Mentored
 

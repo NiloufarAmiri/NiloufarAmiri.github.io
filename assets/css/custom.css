@@ -1167,3 +1167,139 @@ body {
     justify-self: center;
   }
 }
+
+
+/* Research opportunities announcement */
+.custom-header .nav-links ul { grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 0.22rem; }
+@media (min-width: 701px) and (max-width: 900px) {
+  .custom-header .nav-links ul { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .custom-header .nav-links ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 390px) {
+  .custom-header .nav-links ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Featured opportunity: concise, visually consistent with the homepage. */
+.home-opportunity-card {
+  padding: clamp(1.1rem, 3vw, 1.5rem);
+  border: 1px solid #dce7f6;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 3px 14px rgba(25, 50, 100, 0.04);
+}
+.home-opportunity-topline,
+.home-opportunity-bottomline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+}
+.home-opportunity-label {
+  color: #315fa4;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+}
+.home-opportunity-deadline {
+  color: #66758b;
+  font-size: 0.78rem;
+}
+.main-content .home-opportunity-card h2 {
+  margin: 0.45rem 0 0.45rem;
+  color: #233450;
+  font-size: clamp(1.05rem, 2.1vw, 1.3rem);
+  font-weight: 600;
+  line-height: 1.45;
+}
+.home-opportunity-card p {
+  margin: 0 0 0.85rem;
+  color: #526178;
+  font-size: 0.87rem;
+  line-height: 1.7;
+}
+.home-opportunity-bottomline {
+  padding-top: 0.75rem;
+  border-top: 1px solid #eaf0f8;
+}
+.home-opportunity-bottomline > span {
+  color: #6c7890;
+  font-size: 0.77rem;
+}
+.main-content .home-opportunity-bottomline a {
+  color: #2455a5;
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.main-content .home-opportunity-bottomline a:hover,
+.main-content .home-opportunity-bottomline a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Full opportunity listing */
+.opportunity-lead {
+  margin: 0 0 1.75rem;
+  padding: clamp(1.15rem, 3vw, 1.7rem);
+  border: 1px solid #dce7f6;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 3px 14px rgba(25, 50, 100, 0.04);
+}
+.opportunity-lead .opportunity-eyebrow {
+  margin: 0 0 0.5rem;
+  color: #4971a5;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+.main-content .opportunity-project-title {
+  margin: 0 0 0.8rem;
+  color: #233450;
+  font-size: clamp(1.25rem, 2.8vw, 1.55rem);
+  font-weight: 600;
+}
+.opportunity-lead p:not(.opportunity-eyebrow) {
+  margin: 0 0 1.2rem;
+  color: #4b5970;
+  font-size: 0.93rem;
+  line-height: 1.75;
+}
+.main-content .opportunity-apply-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1rem;
+  border-radius: 9px;
+  background: #315fa4;
+  color: #fff;
+  font-size: 0.87rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 160ms ease;
+}
+.main-content .opportunity-apply-link:hover,
+.main-content .opportunity-apply-link:focus-visible {
+  background: #254c88;
+  color: #fff;
+}
+.main-content .opportunity-compensation {
+  padding: 0.75rem 1rem;
+  border-left: 3px solid #9ebbe5;
+  border-radius: 0 8px 8px 0;
+  background: #f7faff;
+  color: #4b5970;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+@media (max-width: 520px) {
+  .home-opportunity-card { padding: 1.05rem; }
+  .home-opportunity-bottomline { align-items: flex-start; }
+  .opportunity-lead { padding: 1.1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .main-content .opportunity-apply-link { transition: none; }
+}

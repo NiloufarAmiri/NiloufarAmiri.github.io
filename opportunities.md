@@ -9,7 +9,6 @@ permalink: /opportunities/
   <p class="opportunity-eyebrow">Toronto Metropolitan University · Robotics, Mechatronics and Automation Laboratory (RMAL)</p>
   <h2 class="opportunity-project-title">Bio-Inspired Soft Robotics</h2>
   <p>We are seeking a <strong>motivated undergraduate volunteer research assistant</strong> to contribute to an exciting project involving a <strong>bio-inspired soft robot</strong> at the Robotics, Mechatronics and Automation Laboratory (RMAL), Toronto Metropolitan University.</p>
-  <a class="opportunity-apply-link" href="mailto:ni.amiri@torontomu.ca?subject=Volunteer%20Research%20Assistant%20Application">Apply by email <span aria-hidden="true">↗</span></a>
 </div>
 
 The selected candidate will contribute to experimental setup development, hardware prototyping, experimental testing, data collection, and technical documentation.

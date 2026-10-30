@@ -16,6 +16,7 @@ layout: default
           <span>Continuum Robotics</span>
           <span>Aerial Manipulation</span>
           <span>Visual Servoing</span>
+          <span>Bio-Inspired Robotics</span>
         </div>
       </div>
     </div>

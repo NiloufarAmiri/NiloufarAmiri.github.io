@@ -38,10 +38,9 @@ This opportunity offers **continuous research mentorship, hands-on experience in
 - **Location:** RMAL, Toronto Metropolitan University
 - **Time commitment:** 10 hours per week, in person (2–3 days per week)
 - **Expected duration:** 3 months
-- **Application deadline:** November 15, 2026
 
 <p class="opportunity-compensation"><strong>Compensation:</strong> This position is initially voluntary. Depending on research performance and funding availability, financial compensation may be considered at a later stage but is not guaranteed.</p>
 
 ## How to Apply
 
-Interested applicants are encouraged to send their **CV** to **[ni.amiri@torontomu.ca](mailto:ni.amiri@torontomu.ca?subject=Volunteer%20Research%20Assistant%20Application)** by **November 15, 2026**.
+Interested applicants are encouraged to send their **CV** to **[ni.amiri@torontomu.ca](mailto:ni.amiri@torontomu.ca?subject=Volunteer%20Research%20Assistant%20Application)**.

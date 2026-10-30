@@ -43,4 +43,4 @@ This opportunity offers **continuous research mentorship, hands-on experience in
 
 ## How to Apply
 
-Interested applicants are encouraged to send their **CV** to **[ni.amiri@torontomu.ca](mailto:ni.amiri@torontomu.ca?subject=Volunteer%20Research%20Assistant%20Application)**.
+To express your interest in this volunteer research opportunity, please email your **CV** to **[ni.amiri@torontomu.ca](mailto:ni.amiri@torontomu.ca?subject=Volunteer%20Research%20Assistant%20Application)**.

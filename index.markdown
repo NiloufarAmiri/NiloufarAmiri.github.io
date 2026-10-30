@@ -24,7 +24,6 @@ layout: default
   <section class="home-section home-opportunity-card" aria-labelledby="home-opportunity-title">
     <div class="home-opportunity-topline">
       <span class="home-opportunity-label">Research opportunity</span>
-      <span class="home-opportunity-deadline">Apply by November 15, 2026</span>
     </div>
     <h2 id="home-opportunity-title">Volunteer Research Assistant — Bio-Inspired Soft Robotics</h2>
     <p>Join a hands-on research project at RMAL, Toronto Metropolitan University, involving robot prototyping, experimental testing, and data analysis.</p>

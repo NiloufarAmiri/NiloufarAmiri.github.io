@@ -13,6 +13,7 @@ permalink: /service/
     </div>
     <ul class="service-review-list">
       <li>Journal of Field Robotics</li>
+      <li>Robotics and Autonomous Systems</li>
       <li>IEEE Robotics and Automation Letters</li>
       <li>IEEE Transactions on Automation Science and Engineering</li>
       <li>IEEE/ASME Transactions on Mechatronics</li>

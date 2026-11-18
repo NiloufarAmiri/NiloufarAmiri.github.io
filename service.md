@@ -56,4 +56,12 @@ permalink: /service/
     </div>
     <span class="service-activity-year" aria-label="Year 2026">2026</span>
   </article>
+
+  <article class="service-activity-card">
+    <div class="service-activity-body">
+      <h3 class="service-activity-title">BMES Design Competition</h3>
+      <p class="service-activity-position">Judge · Biomedical Engineering Society (BMES), TMU Chapter</p>
+    </div>
+    <span class="service-activity-year" aria-label="Year 2026">2026</span>
+  </article>
 </div>

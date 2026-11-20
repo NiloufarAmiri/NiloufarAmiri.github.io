@@ -4,6 +4,19 @@ title: Publications
 permalink: /publications/
 ---
 
+## Preprints
+
+<div class="publication-list">
+  <article class="publication-card">
+    <div class="publication-card-heading">
+      <h3 class="publication-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6666693" target="_blank" rel="noopener noreferrer">Machine Learning in Aerial Manipulation: A Survey <span class="publication-arrow" aria-hidden="true">↗</span></a></h3>
+      <span class="publication-year">2026</span>
+    </div>
+    <p class="publication-authors">S. Shaikh, <strong>N. Amiri</strong>, and F. Janabi-Sharifi.</p>
+    <p class="publication-venue"><em>SSRN preprint</em>, 2026. <a href="https://doi.org/10.2139/ssrn.6666693" target="_blank" rel="noopener noreferrer">DOI: 10.2139/ssrn.6666693</a>.</p>
+  </article>
+</div>
+
 ## Journal Papers
 
 <div class="publication-list">

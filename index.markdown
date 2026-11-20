@@ -23,6 +23,21 @@ layout: default
   </section>
 
 
+  <section class="home-section home-featured-preprint" aria-labelledby="featured-preprint-title">
+    <article class="featured-preprint-card">
+      <div class="featured-preprint-meta">
+        <span class="featured-preprint-label">Featured Preprint</span>
+        <span class="featured-preprint-year">SSRN · 2026</span>
+      </div>
+      <h2 id="featured-preprint-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6666693" target="_blank" rel="noopener noreferrer">Machine Learning in Aerial Manipulation: A Survey <span aria-hidden="true">↗</span></a></h2>
+      <p class="featured-preprint-summary">A survey of machine learning for aerial manipulation, covering perception, modeling, and control across rigid, compliant, and continuum manipulation systems.</p>
+      <div class="featured-preprint-actions">
+        <a class="featured-preprint-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6666693" target="_blank" rel="noopener noreferrer">Read the preprint <span aria-hidden="true">↗</span></a>
+        <a class="featured-preprint-doi" href="https://doi.org/10.2139/ssrn.6666693" target="_blank" rel="noopener noreferrer">DOI: 10.2139/ssrn.6666693</a>
+      </div>
+    </article>
+  </section>
+
   <section class="home-section home-works-section" aria-labelledby="home-works-title">
     <div class="home-section-heading">
       <div>
